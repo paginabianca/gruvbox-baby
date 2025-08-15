@@ -6,27 +6,27 @@ local c = require("gruvbox-baby.colors").config()
 local M = {
   normal = {
     a = { bg = c.bright_yellow, fg = c.dark, gui = "bold" },
-    b = { bg = c.background, fg = c.light_blue },
+    b = { bg = c.bright_yellow, fg = c.soft_yellow },
     c = { bg = c.background, fg = c.milk },
   },
   insert = {
-    a = { bg = c.soft_gree, fg = c.dark, gui = "bold" },
-    b = { bg = c.background, fg = c.bright_yellow },
+    a = { bg = c.soft_green, fg = c.dark, gui = "bold" },
+    b = { bg = c.forest_green, fg = c.soft_green },
     c = { bg = c.background, fg = c.milk },
   },
   visual = {
     a = { bg = c.milk, fg = c.dark, gui = "bold" },
-    b = { bg = c.background, fg = c.milk },
+    b = { bg = c.milk, fg = c.milk },
     c = { bg = c.background, fg = c.milk },
   },
   replace = {
     a = { bg = c.error_red, fg = c.dark, gui = "bold" },
-    b = { bg = c.background, fg = c.error_red },
+    b = { bg = c.milk, fg = c.error_red },
     c = { bg = c.background, fg = c.milk },
   },
   command = {
     a = { bg = c.light_blue, fg = c.dark, gui = "bold" },
-    b = { bg = c.background, fg = c.soft_green },
+    b = { bg = c.light_blue, fg = c.dark },
     c = { bg = c.background, fg = c.milk },
   },
   inactive = {
