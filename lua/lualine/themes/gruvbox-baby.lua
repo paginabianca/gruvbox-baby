@@ -5,12 +5,12 @@ local c = require("gruvbox-baby.colors").config()
 
 local M = {
   normal = {
-    a = { bg = c.light_blue, fg = c.dark, gui = "bold" },
+    a = { bg = c.bright_yellow, fg = c.dark, gui = "bold" },
     b = { bg = c.background, fg = c.light_blue },
     c = { bg = c.background, fg = c.milk },
   },
   insert = {
-    a = { bg = c.bright_yellow, fg = c.dark, gui = "bold" },
+    a = { bg = c.soft_gree, fg = c.dark, gui = "bold" },
     b = { bg = c.background, fg = c.bright_yellow },
     c = { bg = c.background, fg = c.milk },
   },
@@ -25,7 +25,7 @@ local M = {
     c = { bg = c.background, fg = c.milk },
   },
   command = {
-    a = { bg = c.soft_green, fg = c.dark, gui = "bold" },
+    a = { bg = c.light_blue, fg = c.dark, gui = "bold" },
     b = { bg = c.background, fg = c.soft_green },
     c = { bg = c.background, fg = c.milk },
   },
