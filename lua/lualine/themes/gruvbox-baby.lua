@@ -11,17 +11,17 @@ local M = {
   },
   insert = {
     a = { bg = c.soft_green, fg = c.dark, gui = "bold" },
-    b = { bg = c.background, fg = c.bright_yellow },
+    b = { bg = c.soft_green, fg = c.dark, gui = "bold" },
     c = { bg = c.background, fg = c.milk },
   },
   visual = {
     a = { bg = c.milk, fg = c.dark, gui = "bold" },
-    b = { bg = c.milk, fg = c.dark },
+    b = { bg = c.milk, fg = c.dark, gui = "bold" },
     c = { bg = c.background, fg = c.milk },
   },
   replace = {
     a = { bg = c.error_red, fg = c.dark, gui = "bold" },
-    b = { bg = c.milk, fg = c.dark },
+    b = { bg = c.error_red, fg = c.dark },
     c = { bg = c.background, fg = c.milk },
   },
   command = {
