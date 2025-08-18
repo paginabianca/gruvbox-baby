@@ -10,15 +10,15 @@ local M = {
     c = { bg = c.background, fg = c.milk },
   },
   insert = {
-    a = { bg = c.clean_green, fg = c.background, gui = "bold" },
-    b = { bg = c.clean_green, fg = c.background, gui = "bold" },
-    c = { bg = c.background, fg = c.dark },
+    a = { bg = c.clean_green, fg = c.milk, gui = "bold" },
+    b = { bg = c.clean_green, fg = c.milk, gui = "bold" },
+    c = { bg = c.background, fg = c.milk },
 
   },
   visual = {
     a = { bg = c.milk, fg = c.background, gui = "bold" },
     b = { bg = c.milk, fg = c.background, gui = "bold" },
-    c = { bg = c.background, fg = c.dark },
+    c = { bg = c.background, fg = c.milk },
   },
   replace = {
     a = { bg = c.error_red, fg = c.background, gui = "bold" },
