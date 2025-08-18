@@ -31,9 +31,9 @@ local M = {
     c = { bg = c.background, fg = c.milk },
   },
   inactive = {
-    a = { bg = c.background, fg = c.milk, gui = "bold" },
-    b = { bg = c.background, fg = c.milk, gui = "bold" },
-    c = { bg = c.background, fg = c.milk, gui = "bold" },
+    a = { bg = c.background_light, fg = c.milk, gui = "bold" },
+    b = { bg = c.background_light, fg = c.milk, gui = "bold" },
+    c = { bg = c.background_light, fg = c.milk, gui = "bold" },
   },
 }
 
