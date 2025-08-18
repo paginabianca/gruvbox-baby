@@ -21,22 +21,23 @@ local M = {
     c = { bg = c.background, fg = c.milk },
   },
   replace = {
-    a = { bg = c.error_red, fg = c.background, gui = "bold" },
-    b = { bg = c.error_red, fg = c.background },
+    a = { bg = c.error_red, fg = c.dark, gui = "bold" },
+    b = { bg = c.error_red, fg = c.dark },
     c = { bg = c.background, fg = c.milk },
   },
   command = {
-    a = { bg = c.light_blue, fg = c.background, gui = "bold" },
-    b = { bg = c.light_blue, fg = c.background },
+    a = { bg = c.light_blue, fg = c.dark, gui = "bold" },
+    b = { bg = c.light_blue, fg = c.dark },
     c = { bg = c.background, fg = c.milk },
   },
   inactive = {
-    a = { bg = c.background, fg = c.gray, gui = "bold" },
-    b = { bg = c.background, fg = c.gray, gui = "bold" },
-    c = { bg = c.background, fg = c.gray, gui = "bold" },
+    a = { bg = c.background, fg = c.milk, gui = "bold" },
+    b = { bg = c.background, fg = c.milk, gui = "bold" },
+    c = { bg = c.background, fg = c.milk, gui = "bold" },
   },
 }
 
 M.terminal = M.insert
 
 return M
+
