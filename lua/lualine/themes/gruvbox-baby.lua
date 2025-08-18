@@ -12,12 +12,13 @@ local M = {
   insert = {
     a = { bg = c.clean_green, fg = c.background, gui = "bold" },
     b = { bg = c.clean_green, fg = c.background, gui = "bold" },
-    c = { bg = c.background, fg = c.milk },
+    c = { bg = c.background, fg = c.dark },
+
   },
   visual = {
     a = { bg = c.milk, fg = c.background, gui = "bold" },
     b = { bg = c.milk, fg = c.background, gui = "bold" },
-    c = { bg = c.background, fg = c.milk },
+    c = { bg = c.background, fg = c.dark },
   },
   replace = {
     a = { bg = c.error_red, fg = c.background, gui = "bold" },
