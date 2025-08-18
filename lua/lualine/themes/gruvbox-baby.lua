@@ -10,14 +10,14 @@ local M = {
     c = { bg = c.background, fg = c.milk },
   },
   insert = {
-    a = { bg = c.clean_green, fg = c.milk, gui = "bold" },
-    b = { bg = c.clean_green, fg = c.milk, gui = "bold" },
+    a = { bg = c.clean_green, fg = c.dark, gui = "bold" },
+    b = { bg = c.clean_green, fg = c.dark, gui = "bold" },
     c = { bg = c.background, fg = c.milk },
 
   },
   visual = {
-    a = { bg = c.milk, fg = c.background, gui = "bold" },
-    b = { bg = c.milk, fg = c.background, gui = "bold" },
+    a = { bg = c.milk, fg = c.dark, gui = "bold" },
+    b = { bg = c.milk, fg = c.dark, gui = "bold" },
     c = { bg = c.background, fg = c.milk },
   },
   replace = {
